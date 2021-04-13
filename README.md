@@ -1,7 +1,7 @@
 # My Dev portfolio!
 
 
-# Technologies used for Simplfolio template 🛠️
+### Technologies used for Simplfolio template 🛠️
 
 - [Webpack](https://webpack.js.org/concepts/) - Static module bundler
 - [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-end component library
@@ -10,18 +10,14 @@
 - [Tilt.js](https://gijsroge.github.io/tilt.js/) - JavaScript tiny parallax library
 - [Popper.js](https://popper.js.org/) - JavaScript popover library
 
-## Authors - Template dev'd by:
+### Authors - Template dev'd by:
 
 - **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
 
-## Status
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/75600296-89eb-4640-9e7e-fa87fba7ce76/deploy-status)](https://app.netlify.com/sites/simplfolio/deploys)
-
-## License 📄
+### License 📄
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments 🎁
+### Acknowledgments 🎁
 
 Thanks to [ZTM Community](https://github.com/zero-to-mastery) and [Andrei](https://github.com/aneagoie)
