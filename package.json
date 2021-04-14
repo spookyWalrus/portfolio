@@ -1,14 +1,17 @@
 {
   "name": "simplefolio",
+  "homepage": "https://spookyWalrus.github.io/portfolio/",
   "version": "1.0.1",
-  
   "main": "index.js",
+  "private": true,
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --open",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  
-  "homepage": "https://github.com/spookyWalrus/portfolio.git",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.6.0",
@@ -27,6 +30,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
+    "firstup": "0.0.4",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "tilt.js": "^1.2.1"
