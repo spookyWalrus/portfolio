@@ -1,6 +1,9 @@
 # My Dev portfolio!
 
+A simple site to feature sites that I've created.
 
+
+## This site used the Simplfolio template!
 ### Technologies used for Simplfolio template 🛠️
 
 - [Webpack](https://webpack.js.org/concepts/) - Static module bundler
