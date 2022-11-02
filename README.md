@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 A React-based personal site
 =======
 # My Dev portfolio!
@@ -15,4 +14,3 @@ Template dev'd by:
 ### Acknowledgments 🎁
 
 Thanks to [ZTM Community](https://github.com/zero-to-mastery) and [Andrei](https://github.com/aneagoie)
->>>>>>> firstUp
