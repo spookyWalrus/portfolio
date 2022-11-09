@@ -1,0 +1,11 @@
+/*zenstyle.css*/
+ul.horizontal-list{
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.horizontal-list li{
+	display: inline-block;
+	border-radius: 1;
+	font-size: 1.5em;
+}
