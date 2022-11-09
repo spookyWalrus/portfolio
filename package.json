@@ -4,6 +4,7 @@
   "version": "1.0.1",
   "main": "index.js",
   "private": true,
+  "type": "module",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js",
