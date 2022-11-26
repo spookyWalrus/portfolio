@@ -43,7 +43,11 @@ module.exports = merge(common, {
           'css-loader', //2. Turns css into commonjs
           'sass-loader'
         ] //1. Turns sass into css
-      }
+      },
+      {
+        test: /\.css$/i, // loads css file
+        use: ["style-loader", "css-loader"],
+      },
     ]
   }
 });
