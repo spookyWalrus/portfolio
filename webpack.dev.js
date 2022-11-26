@@ -25,12 +25,11 @@ module.exports = merge(common, {
           'sass-loader'
         ] //1. Turns sass into css
       },
-      { test: /\.css$/, 
-        use: [
-          'style-loader',
-           'css-loader'
-       ]
-     }
+       {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+     
     ]
   }
 });
