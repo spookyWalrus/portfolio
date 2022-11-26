@@ -1,11 +1,11 @@
-/*zenstyle.css*/
 
-.uList {
+
+.techstaku {
 	display: flex; 
-	float:right; 
-	font-size:1.4em;
+	float: right; 
+	font-size: 1.4em;
 }
 
-.lList{
+.techstakl {
 	display:inline-block;
 }
