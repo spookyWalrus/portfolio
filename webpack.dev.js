@@ -26,7 +26,10 @@ module.exports = merge(common, {
         ] //1. Turns sass into css
       },
       { test: /\.css$/, 
-        use: ["style-loader, css-loader"]
+        use: [
+          'style-loader',
+           'css-loader'
+       ]
      }
     ]
   }
