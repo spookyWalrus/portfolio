@@ -14,6 +14,9 @@
     <meta name="description" content="Zen Nakamura | Developer" />
 
     <!-- Required librarys -->
+      <!-- Bootstrap libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -74,16 +77,9 @@
 
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                As a self-taught full-stack javascript web developer, I have diverse experiences developing responsive web applications for desktop and mobile devices using Javascript, React and Node JS. <br><br>
-                
-                My past experiences in the music production industry gave me invaluable experience in client service, production management and conflict management among other related skills. My passion lies in problem solving, web development and finding new ways to apply creativity with technology.
-                <!-- With a diverse background in music, music technology, audio engineering and venue management, I am pivoting to web development to expand my professional experience. I am certain that my diverse technical background within a creative milieu is an asset to software development. -->
+                As a self-taught full-stack web developer, I have diverse experiences developing responsive web applications using Javascript, React and Node JS. <br><br>
+                My past experiences in live music production and venue management gives me invaluable experience in client service and production supervision amongst the application of technical skills. My passion lies in problem solving and finding new ways to apply creativity with technology.
               </p>
-              <!-- <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
-                  View Resume
-                </a>
-              </span> -->
               <div class="contact-wrapper">
                 <a
                   target="_blank"
@@ -124,18 +120,50 @@
                     <li class="px-3 py-1 mr-1 mt-1 border techstakl">Javascript</li>
                     <li class="px-3 py-1 mr-1 mt-1 border techstakl">React</li>
                     <li class="px-3 py-1 mr-1 mt-1 border techstakl">Node</li>
+                    <li class="px-3 py-1 mr-1 mt-1 border techstakl">Express</li>
                     <li class="px-3 py-1 mr-1 mt-1 border techstakl">PostgreSQL</li>
                   </ul>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://nimble-shortbread-540549.netlify.app/">
+                <a target="_blank" class="cta-btn cta-btn--hero codeButton" href="https://nimble-shortbread-540549.netlify.app/">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/spookyWalrus/smartBrain">
-                  Source Code
+                <a target="_blank" class="cta-btn cta-btn--hero codeButton" href="https://github.com/spookyWalrus/smartBrain">
+                  Front-end Source Code
+                </a>
+                <a target="_blank" class="cta-btn cta-btn--hero codeButton" href="https://github.com/spookyWalrus/smartbrain-api">
+                  Back-end Source Code
                 </a>
               </div>
             </div>
+
             <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div data-tilt class="thumbnail rounded">
+                        <img class="d-block w-100" src="./assets/smartBrain1.jpg" alt="First slide">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div data-tilt class="thumbnail rounded">
+                        <img class="d-block w-100" src="./assets/smartBrain-resp.jpg" alt="Second slide">
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                 <a href="https://nimble-shortbread-540549.netlify.app/" target="_blank">
                   <div data-tilt class="thumbnail rounded">
@@ -143,16 +171,59 @@
                   </div>
                 </a>
               </div>
+            </div> -->
+
+          </div>
+          <!-- /END Project -->
+
+          <!-- Ramen Report  -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Restaurant finder and ratings application</h3> 
+                <div>
+                  <p class="mb-4">
+                     Find the closest Ramen restaurants to you and see which one has the best bowl of ramen. Also do your own evaluation of a bowl of ramen to share with others. Incorporates a GoogleMaps API to geolocate restaurants and user positions.
+                  </p>
+                  <ul class="horizontal-list techstaku">
+                    <li class="px-3 py-1 mr-1 mt-1 border techstakl">HTML</li>
+                    <li class="px-3 py-1 mr-1 mt-1 border techstakl">CSS</li>
+                    <li class="px-3 py-1 mr-1 mt-1 border techstakl">Javascript</li>
+                    <li class="px-3 py-1 mr-1 mt-1 border techstakl">React</li>
+                    <li class="px-3 py-1 mr-1 mt-1 border techstakl">Node</li>
+                    <li class="px-3 py-1 mr-1 mt-1 border techstakl">Express</li>
+                    <li class="px-3 py-1 mr-1 mt-1 border techstakl">PostgreSQL</li>
+                  </ul>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero codeButton" href="https://nimble-shortbread-540549.netlify.app/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn cta-btn--hero codeButton" href="https://github.com/spookyWalrus/ramenReport">
+                  Front-end Source Code
+                </a>
+                <a target="_blank" class="cta-btn cta-btn--hero codeButton" href="https://github.com/spookyWalrus/ramenReportServer">
+                  Back-end Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://nimble-shortbread-540549.netlify.app/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/ramenreport.jpg" />
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
-          <!-- /END Project -->">
+          <!-- /END Project -->
                 
 
           <!-- OP site -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Venue Payroll application.</h3>
+                <h3 class="project-wrapper__text-title">Venue Payroll application</h3>
                 <div>
                   <p class="mb-4">
                     An on-line application to record and view employee work hours, create production reports and file employee payroll. Specifically designed for a performance space or venue. <br>
@@ -170,7 +241,7 @@
                 <a target="_blank" class="cta-btn cta-btn--hero" href="https://op-prototype.infinityfreeapp.com/">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/spookyWalrus/OPsite">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/spookyWalrus/OPsite">
                   Source Code
                 </a>
               </div>
@@ -271,7 +342,7 @@
                 <a target="_blank" class="cta-btn cta-btn--hero" href="http://atelierhistoirendg.ca/">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/spookyWalrus/bennyfarm">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/spookyWalrus/bennyfarm">
                   Source Code
                 </a>
               </div>
@@ -308,7 +379,7 @@
                 <a target="_blank" class="cta-btn cta-btn--hero" href="https://fuadandthefeztones.com">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/spookyWalrus/fuadandthefeztones/tree/gh-pages">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/spookyWalrus/fuadandthefeztones/tree/gh-pages">
                   Source Code
                 </a>
               </div>
@@ -340,15 +411,20 @@
           Contact
         </h2>
         <div class="contact-wrapper">
-          <!-- <p class="contact-wrapper__text">
-            [Put your call to action here]
-          </p> -->
           <a
             target="_blank"
             class="cta-btn cta-btn--resume"
             href="mailto:bananaudiomedia@zoho.com"
             >Send me an email</a
           >
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/zen-nakamura-39118648/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/spookyWalrus" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
         </div>
       </div>
     </section>
@@ -360,33 +436,13 @@
         <a href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        <!-- <div class="social-links">
-          <a href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div> -->
-
-        <hr />
-
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2020 - Template by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
-          </a>
-        </p>
-
-        <!-- Remove this paragraph once you setup your custom portfolio -->
-     
       </div>
     </footer>
     <!-- /END Footer Section -->
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
