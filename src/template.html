@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Put here your site title -->
-    <title>Zen Nakamura | Web Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <title>Zen Nakamura | Web Portfolio</title>
     <meta name="keywords" content="Zen Nakamura, Web Developer" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Zen Nakamura | Developer" />
+    <!-- Improve SEO  -->
+    <meta name="description" content="Zen Nakamura, Web Portfolio" />
 
     <!-- Required librarys -->
       <!-- Bootstrap libraries -->
@@ -29,6 +27,17 @@
 
     <!-- Remove this script once you setup your custom portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+    <style>
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23565454' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23565454' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    }
+    </style>
   </head>
 
   <!-- Follow the HTML instructions to create your stunning portfolio website -->
@@ -135,10 +144,10 @@
                 </a>
               </div>
             </div>
-
+            <!-- carousel-->
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div id="carouselSB" class="carousel slide" data-ride="carousel" data-interval="false">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <div data-tilt class="thumbnail rounded">
@@ -151,33 +160,22 @@
                       </div>
                     </div>
                   </div>
-                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <a class="carousel-control-prev" href="#carouselSB" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                   </a>
-                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <a class="carousel-control-next" href="#carouselSB" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                   </a>
                 </div>
               </div>
-            </div>
-
-            <!-- <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://nimble-shortbread-540549.netlify.app/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/smartBrain1.jpg" />
-                  </div>
-                </a>
-              </div>
-            </div> -->
-
+            </div> <!--carousel end-->
           </div>
           <!-- /END Project -->
 
           <!-- Ramen Report  -->
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
                 <h3 class="project-wrapper__text-title">Restaurant finder and ratings application</h3> 
@@ -216,7 +214,7 @@
                 </a>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- /END Project -->
                 
 
@@ -247,15 +245,33 @@
                 </a>
               </div>
             </div>
+            <!-- carousel-->
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="https://op-prototype.infinityfreeapp.com/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/opsite.jpg" />
+                <div id="carouselOP" class="carousel slide" data-ride="carousel" data-interval="false">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div data-tilt class="thumbnail rounded">
+                        <img class="img-fluid" src="./assets/opsite.jpg" />
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div data-tilt class="thumbnail rounded">
+                        <img class="d-block w-100" src="./assets/opsite2.jpg" alt="Second slide">
+                      </div>
+                    </div>
                   </div>
-                </a>
+                  <a class="carousel-control-prev" href="#carouselOP" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselOP" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
-            </div>
+            </div> <!-- carousel end-->
           </div>
           <!-- /END Project -->
 
@@ -348,15 +364,33 @@
                 </a>
               </div>
             </div>
+            <!-- carousel-->
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="http://atelierhistoirendg.ca/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/bennyfarm.jpg" />
+                <div id="carouselBF" class="carousel slide" data-ride="carousel" data-interval="false">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div data-tilt class="thumbnail rounded">
+                        <img class="img-fluid" src="./assets/bennyfarm.jpg" />
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div data-tilt class="thumbnail rounded">
+                        <img class="d-block w-100" src="./assets/bennyfarm2.jpg" alt="Second slide">
+                      </div>
+                    </div>
                   </div>
-                </a>
+                  <a class="carousel-control-prev" href="#carouselBF" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselBF" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
-            </div>
+            </div> <!-- carousel end-->
           </div>
           <!-- /END Project -->
 
@@ -385,15 +419,33 @@
                 </a>
               </div>
             </div>
+            <!-- carousel-->
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="https://fuadandthefeztones.com" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/feztones.jpg" />
+                <div id="carouselFZ" class="carousel slide" data-ride="carousel" data-interval="false">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div data-tilt class="thumbnail rounded">
+                        <img class="img-fluid" src="./assets/feztones.jpg" />
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div data-tilt class="thumbnail rounded">
+                        <img class="d-block w-100" src="./assets/feztones2.jpg" alt="Second slide">
+                      </div>
+                    </div>
                   </div>
-                </a>
+                  <a class="carousel-control-prev" href="#carouselFZ" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselFZ" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
-            </div>
+            </div> <!-- carousel end-->
           </div>
           <!-- /END Project -->
 
